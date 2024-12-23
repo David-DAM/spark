@@ -1,0 +1,30 @@
+version: "3.1"
+
+services:
+  spark:
+    image: bitnami/spark:3.3.1
+    container_name: spark
+    hostname: spark
+    environment:
+      - SPARK_MODE=master
+      - SPARK_WORKER_MEMORY=2G
+      - SPARK_WORKER_CORES=2
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+    ports:
+      - "7077:7077" # Port RPC for Spark Master
+      - "8080:8080" # Web UI for Spark Master
+      - "4040:4040" # Web UI of the Spark applications
+    networks:
+      - spark
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8080" ]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+networks:
+  spark:
+    driver: bridge
