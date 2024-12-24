@@ -1,0 +1,1001 @@
+id,name,age,city,salary
+1,Employee_1,42,New York,43444.05
+2,Employee_2,23,Phoenix,128750.97
+3,Employee_3,31,Chicago,144591.15
+4,Employee_4,47,New York,144691.73
+5,Employee_5,53,Los Angeles,96713.77
+6,Employee_6,26,New York,43938.61
+7,Employee_7,54,Los Angeles,120647.1
+8,Employee_8,32,Los Angeles,33871.29
+9,Employee_9,60,Chicago,120350.38
+10,Employee_10,48,Houston,38236.71
+11,Employee_11,41,Houston,103812.39
+12,Employee_12,25,Los Angeles,144444.01
+13,Employee_13,48,Phoenix,83071.05
+14,Employee_14,40,Houston,126889.75
+15,Employee_15,58,Houston,55244.92
+16,Employee_16,48,Los Angeles,30677.25
+17,Employee_17,47,Los Angeles,119669.94
+18,Employee_18,21,Houston,41582.81
+19,Employee_19,47,New York,135493.77
+20,Employee_20,55,Chicago,123297.52
+21,Employee_21,25,New York,101839.96
+22,Employee_22,27,Los Angeles,108696.98
+23,Employee_23,50,Chicago,120175.81
+24,Employee_24,58,Los Angeles,117287.29
+25,Employee_25,24,Los Angeles,49379.91
+26,Employee_26,20,Phoenix,119359.49
+27,Employee_27,52,Chicago,64088.27
+28,Employee_28,29,Los Angeles,136850.95
+29,Employee_29,43,Los Angeles,69137.31
+30,Employee_30,27,Houston,86184.09
+31,Employee_31,40,Chicago,114178.0
+32,Employee_32,34,Chicago,117443.79
+33,Employee_33,40,Houston,115928.99
+34,Employee_34,57,Phoenix,36662.45
+35,Employee_35,27,Los Angeles,47553.76
+36,Employee_36,30,Houston,49104.71
+37,Employee_37,42,Phoenix,113175.96
+38,Employee_38,42,Chicago,134952.67
+39,Employee_39,41,Phoenix,95695.6
+40,Employee_40,56,Chicago,136342.1
+41,Employee_41,53,Chicago,56326.12
+42,Employee_42,47,New York,42057.6
+43,Employee_43,40,Houston,31819.14
+44,Employee_44,42,New York,61013.44
+45,Employee_45,47,Houston,100485.55
+46,Employee_46,60,Los Angeles,84549.63
+47,Employee_47,59,Los Angeles,116608.3
+48,Employee_48,25,New York,141466.6
+49,Employee_49,44,Phoenix,80090.85
+50,Employee_50,21,Chicago,135931.72
+51,Employee_51,44,Los Angeles,46089.75
+52,Employee_52,57,Phoenix,50955.76
+53,Employee_53,37,Chicago,64572.36
+54,Employee_54,24,Phoenix,130489.63
+55,Employee_55,20,Los Angeles,38454.04
+56,Employee_56,43,New York,135069.46
+57,Employee_57,39,New York,111225.93
+58,Employee_58,31,Phoenix,46222.76
+59,Employee_59,52,New York,145262.5
+60,Employee_60,42,Houston,132954.17
+61,Employee_61,43,New York,56903.01
+62,Employee_62,42,Phoenix,86479.26
+63,Employee_63,40,Phoenix,82537.81
+64,Employee_64,24,Los Angeles,62646.23
+65,Employee_65,39,Chicago,96730.63
+66,Employee_66,34,New York,71299.46
+67,Employee_67,33,Los Angeles,30129.22
+68,Employee_68,39,Los Angeles,52970.61
+69,Employee_69,39,New York,63551.64
+70,Employee_70,33,New York,83094.7
+71,Employee_71,42,Phoenix,141185.32
+72,Employee_72,46,Chicago,55315.4
+73,Employee_73,41,Phoenix,89248.99
+74,Employee_74,39,Chicago,105407.26
+75,Employee_75,22,Los Angeles,40921.22
+76,Employee_76,41,Houston,104862.53
+77,Employee_77,25,New York,99446.48
+78,Employee_78,26,New York,109984.51
+79,Employee_79,54,Phoenix,89382.72
+80,Employee_80,30,Phoenix,50485.28
+81,Employee_81,54,Chicago,34828.78
+82,Employee_82,57,Houston,87881.69
+83,Employee_83,45,Chicago,60946.4
+84,Employee_84,59,Chicago,60283.03
+85,Employee_85,46,Phoenix,59082.5
+86,Employee_86,30,Los Angeles,51269.85
+87,Employee_87,43,Chicago,86524.47
+88,Employee_88,29,Houston,45344.8
+89,Employee_89,57,Phoenix,92306.99
+90,Employee_90,33,Phoenix,51180.71
+91,Employee_91,40,Chicago,52186.27
+92,Employee_92,57,Phoenix,103626.52
+93,Employee_93,42,Los Angeles,118212.26
+94,Employee_94,38,Phoenix,127057.46
+95,Employee_95,36,New York,76373.66
+96,Employee_96,35,Houston,94766.26
+97,Employee_97,58,Los Angeles,36933.67
+98,Employee_98,48,Houston,49714.64
+99,Employee_99,56,Chicago,121315.78
+100,Employee_100,23,New York,36239.19
+101,Employee_101,44,Chicago,55048.21
+102,Employee_102,49,New York,126806.83
+103,Employee_103,42,New York,139243.7
+104,Employee_104,53,Phoenix,136159.26
+105,Employee_105,33,New York,53180.95
+106,Employee_106,37,Chicago,126091.39
+107,Employee_107,49,New York,126366.72
+108,Employee_108,34,New York,86134.46
+109,Employee_109,54,Chicago,133262.42
+110,Employee_110,52,Phoenix,78328.06
+111,Employee_111,35,New York,79110.36
+112,Employee_112,53,Los Angeles,37952.52
+113,Employee_113,22,Phoenix,143033.15
+114,Employee_114,46,New York,118866.4
+115,Employee_115,58,Chicago,62002.06
+116,Employee_116,54,Houston,90709.1
+117,Employee_117,45,Chicago,82493.78
+118,Employee_118,46,Phoenix,144365.0
+119,Employee_119,22,Houston,118016.19
+120,Employee_120,21,Los Angeles,65975.6
+121,Employee_121,59,Los Angeles,90924.17
+122,Employee_122,24,Houston,76627.95
+123,Employee_123,35,Houston,34085.97
+124,Employee_124,60,Houston,89499.17
+125,Employee_125,40,Houston,138257.83
+126,Employee_126,37,New York,149729.59
+127,Employee_127,26,Phoenix,70282.96
+128,Employee_128,31,Chicago,82182.9
+129,Employee_129,54,Los Angeles,60399.73
+130,Employee_130,44,Houston,127854.4
+131,Employee_131,60,Los Angeles,42402.58
+132,Employee_132,56,Los Angeles,87057.61
+133,Employee_133,51,Phoenix,98945.17
+134,Employee_134,20,Houston,112307.14
+135,Employee_135,45,Houston,53660.28
+136,Employee_136,44,Los Angeles,104417.39
+137,Employee_137,35,Chicago,37474.71
+138,Employee_138,24,Houston,92709.99
+139,Employee_139,54,Los Angeles,114491.68
+140,Employee_140,33,Houston,69681.57
+141,Employee_141,37,Chicago,43345.96
+142,Employee_142,47,Los Angeles,122784.72
+143,Employee_143,48,Chicago,107512.33
+144,Employee_144,40,Chicago,103527.83
+145,Employee_145,58,New York,89469.65
+146,Employee_146,57,Los Angeles,42832.07
+147,Employee_147,30,Houston,128890.8
+148,Employee_148,47,Houston,127324.32
+149,Employee_149,53,Chicago,41077.17
+150,Employee_150,53,Los Angeles,141538.47
+151,Employee_151,52,New York,120728.52
+152,Employee_152,50,Phoenix,98325.43
+153,Employee_153,30,Los Angeles,133839.79
+154,Employee_154,53,Chicago,35585.42
+155,Employee_155,26,Chicago,79567.27
+156,Employee_156,28,Los Angeles,36233.69
+157,Employee_157,37,Chicago,112903.38
+158,Employee_158,20,Houston,74738.94
+159,Employee_159,57,Houston,106509.27
+160,Employee_160,53,New York,142596.79
+161,Employee_161,25,Chicago,116045.33
+162,Employee_162,30,Los Angeles,136930.77
+163,Employee_163,40,Phoenix,99302.54
+164,Employee_164,36,New York,99905.59
+165,Employee_165,59,Los Angeles,36847.13
+166,Employee_166,33,New York,67162.3
+167,Employee_167,28,New York,120377.06
+168,Employee_168,20,Chicago,103200.38
+169,Employee_169,34,Houston,104019.06
+170,Employee_170,37,Chicago,52783.86
+171,Employee_171,34,Chicago,46527.61
+172,Employee_172,27,Phoenix,55289.76
+173,Employee_173,58,Chicago,146937.79
+174,Employee_174,26,Chicago,30095.31
+175,Employee_175,42,New York,143735.56
+176,Employee_176,52,Chicago,126581.31
+177,Employee_177,52,Los Angeles,74668.94
+178,Employee_178,23,Los Angeles,48408.61
+179,Employee_179,55,Houston,92679.51
+180,Employee_180,58,Phoenix,131657.61
+181,Employee_181,56,Houston,70695.74
+182,Employee_182,42,Phoenix,50269.23
+183,Employee_183,57,Phoenix,140768.23
+184,Employee_184,56,Houston,32531.65
+185,Employee_185,37,Houston,91447.77
+186,Employee_186,41,Chicago,88867.34
+187,Employee_187,30,Chicago,83641.07
+188,Employee_188,26,Chicago,114826.22
+189,Employee_189,48,Phoenix,60428.01
+190,Employee_190,53,Houston,52310.41
+191,Employee_191,39,New York,57320.03
+192,Employee_192,42,Los Angeles,94572.42
+193,Employee_193,37,Phoenix,44039.46
+194,Employee_194,43,New York,47794.49
+195,Employee_195,41,Houston,68577.5
+196,Employee_196,48,Los Angeles,92724.27
+197,Employee_197,47,Houston,131720.17
+198,Employee_198,36,New York,92072.39
+199,Employee_199,29,Chicago,92797.91
+200,Employee_200,43,Phoenix,103641.19
+201,Employee_201,33,New York,85176.52
+202,Employee_202,44,New York,60315.74
+203,Employee_203,29,New York,112593.2
+204,Employee_204,57,Houston,75949.34
+205,Employee_205,30,Phoenix,36879.42
+206,Employee_206,46,Phoenix,71504.88
+207,Employee_207,45,Los Angeles,125221.08
+208,Employee_208,23,Houston,105412.04
+209,Employee_209,22,New York,89662.37
+210,Employee_210,22,Phoenix,86763.31
+211,Employee_211,31,Los Angeles,57076.74
+212,Employee_212,33,Houston,81845.29
+213,Employee_213,46,Phoenix,139688.72
+214,Employee_214,42,Los Angeles,129739.64
+215,Employee_215,32,New York,77464.87
+216,Employee_216,31,New York,53523.44
+217,Employee_217,47,Phoenix,54146.83
+218,Employee_218,21,Phoenix,98769.82
+219,Employee_219,21,Phoenix,121478.59
+220,Employee_220,60,Phoenix,92743.64
+221,Employee_221,47,New York,66620.44
+222,Employee_222,29,Chicago,70023.55
+223,Employee_223,48,Los Angeles,42510.64
+224,Employee_224,36,Phoenix,99910.58
+225,Employee_225,22,Phoenix,48404.94
+226,Employee_226,52,Houston,148471.13
+227,Employee_227,26,Phoenix,104108.66
+228,Employee_228,28,Phoenix,122139.98
+229,Employee_229,33,New York,50846.09
+230,Employee_230,31,Chicago,74036.09
+231,Employee_231,44,Los Angeles,114592.03
+232,Employee_232,42,New York,94364.38
+233,Employee_233,39,New York,83031.0
+234,Employee_234,42,Chicago,145496.84
+235,Employee_235,44,New York,129936.97
+236,Employee_236,45,Los Angeles,140120.01
+237,Employee_237,43,Phoenix,141552.12
+238,Employee_238,22,Los Angeles,66979.4
+239,Employee_239,50,Phoenix,146239.75
+240,Employee_240,42,Chicago,74371.65
+241,Employee_241,27,Chicago,93759.85
+242,Employee_242,59,New York,65675.8
+243,Employee_243,43,Houston,48216.32
+244,Employee_244,50,Los Angeles,64161.23
+245,Employee_245,43,Chicago,45423.16
+246,Employee_246,48,New York,62380.17
+247,Employee_247,42,Phoenix,40358.55
+248,Employee_248,27,Chicago,48732.35
+249,Employee_249,59,Chicago,146760.24
+250,Employee_250,56,Chicago,113593.75
+251,Employee_251,43,Houston,45003.67
+252,Employee_252,20,New York,42750.43
+253,Employee_253,28,Los Angeles,131570.76
+254,Employee_254,36,Houston,55376.5
+255,Employee_255,53,Chicago,102493.83
+256,Employee_256,28,Chicago,134381.52
+257,Employee_257,60,Los Angeles,119483.74
+258,Employee_258,49,Phoenix,120247.82
+259,Employee_259,42,Los Angeles,42015.02
+260,Employee_260,49,Chicago,66255.06
+261,Employee_261,24,Houston,63133.86
+262,Employee_262,56,Phoenix,106163.23
+263,Employee_263,57,Houston,86006.02
+264,Employee_264,39,New York,96605.03
+265,Employee_265,26,Los Angeles,91147.92
+266,Employee_266,59,Chicago,93222.92
+267,Employee_267,33,Phoenix,99348.79
+268,Employee_268,23,Chicago,76393.42
+269,Employee_269,59,Chicago,140701.51
+270,Employee_270,24,Houston,134640.14
+271,Employee_271,25,Chicago,60445.02
+272,Employee_272,23,Chicago,115496.1
+273,Employee_273,20,New York,130523.56
+274,Employee_274,58,Chicago,132115.75
+275,Employee_275,31,Phoenix,54787.8
+276,Employee_276,20,Houston,147056.15
+277,Employee_277,51,New York,115686.83
+278,Employee_278,37,Phoenix,46411.64
+279,Employee_279,43,New York,129907.52
+280,Employee_280,31,Phoenix,89876.99
+281,Employee_281,54,Los Angeles,62937.16
+282,Employee_282,58,Chicago,79181.14
+283,Employee_283,32,Los Angeles,121817.12
+284,Employee_284,20,Los Angeles,63382.77
+285,Employee_285,44,New York,56385.73
+286,Employee_286,57,Phoenix,37668.4
+287,Employee_287,53,Phoenix,56857.77
+288,Employee_288,38,Phoenix,35372.76
+289,Employee_289,38,Houston,49882.51
+290,Employee_290,38,New York,38222.94
+291,Employee_291,42,Chicago,125928.12
+292,Employee_292,20,Chicago,148616.04
+293,Employee_293,54,Chicago,147659.67
+294,Employee_294,42,Phoenix,41703.17
+295,Employee_295,49,New York,90047.44
+296,Employee_296,35,Chicago,69460.16
+297,Employee_297,32,Houston,112616.44
+298,Employee_298,21,Phoenix,100655.86
+299,Employee_299,20,Houston,128121.27
+300,Employee_300,25,Chicago,134949.92
+301,Employee_301,20,Chicago,123372.32
+302,Employee_302,28,Chicago,49963.53
+303,Employee_303,34,Phoenix,76768.02
+304,Employee_304,48,Los Angeles,117856.52
+305,Employee_305,43,Chicago,72312.75
+306,Employee_306,24,Los Angeles,72500.36
+307,Employee_307,36,Phoenix,131363.54
+308,Employee_308,60,Los Angeles,53232.91
+309,Employee_309,53,Phoenix,38723.85
+310,Employee_310,58,Houston,105535.74
+311,Employee_311,35,Phoenix,54294.77
+312,Employee_312,56,Chicago,48877.17
+313,Employee_313,22,Los Angeles,129040.81
+314,Employee_314,53,New York,112776.75
+315,Employee_315,46,Houston,110937.46
+316,Employee_316,29,Chicago,76565.67
+317,Employee_317,51,Los Angeles,139012.7
+318,Employee_318,43,Houston,106135.69
+319,Employee_319,20,Houston,56715.32
+320,Employee_320,46,Chicago,107070.3
+321,Employee_321,38,Los Angeles,39693.99
+322,Employee_322,24,Chicago,104885.16
+323,Employee_323,48,Chicago,43801.05
+324,Employee_324,33,Houston,70677.18
+325,Employee_325,51,Chicago,113631.97
+326,Employee_326,45,Houston,50034.4
+327,Employee_327,39,Chicago,126626.36
+328,Employee_328,24,Phoenix,47879.49
+329,Employee_329,45,Phoenix,142878.69
+330,Employee_330,31,Houston,71568.98
+331,Employee_331,33,Los Angeles,73642.25
+332,Employee_332,40,New York,119730.08
+333,Employee_333,52,New York,100285.62
+334,Employee_334,22,Los Angeles,39076.32
+335,Employee_335,55,Los Angeles,132890.87
+336,Employee_336,51,Phoenix,60168.35
+337,Employee_337,45,Chicago,33713.76
+338,Employee_338,24,New York,56339.42
+339,Employee_339,48,Chicago,43175.67
+340,Employee_340,30,Houston,54855.23
+341,Employee_341,30,Phoenix,86342.06
+342,Employee_342,50,Phoenix,100633.04
+343,Employee_343,42,Chicago,58796.13
+344,Employee_344,25,Los Angeles,107268.87
+345,Employee_345,21,Chicago,61125.78
+346,Employee_346,52,Houston,72897.74
+347,Employee_347,34,Chicago,94847.79
+348,Employee_348,41,Phoenix,105458.46
+349,Employee_349,36,Houston,56515.25
+350,Employee_350,43,Phoenix,113195.16
+351,Employee_351,26,Los Angeles,134089.6
+352,Employee_352,39,Los Angeles,45327.81
+353,Employee_353,31,Houston,137571.07
+354,Employee_354,24,Los Angeles,80898.95
+355,Employee_355,44,Phoenix,67248.08
+356,Employee_356,36,Chicago,78664.1
+357,Employee_357,55,Phoenix,136328.9
+358,Employee_358,31,Houston,70802.38
+359,Employee_359,21,Houston,128040.71
+360,Employee_360,52,Chicago,89912.16
+361,Employee_361,58,New York,76586.41
+362,Employee_362,36,Los Angeles,36283.33
+363,Employee_363,59,Houston,64343.33
+364,Employee_364,26,Phoenix,94933.4
+365,Employee_365,54,New York,43086.46
+366,Employee_366,57,Chicago,53197.28
+367,Employee_367,42,New York,78243.73
+368,Employee_368,50,Houston,72186.52
+369,Employee_369,28,Chicago,107682.69
+370,Employee_370,46,Phoenix,95969.9
+371,Employee_371,37,Houston,73309.79
+372,Employee_372,50,Chicago,133044.53
+373,Employee_373,22,Chicago,66464.45
+374,Employee_374,26,Houston,118970.8
+375,Employee_375,38,New York,86679.93
+376,Employee_376,58,Los Angeles,72988.48
+377,Employee_377,54,Los Angeles,39556.47
+378,Employee_378,54,New York,87349.83
+379,Employee_379,43,Houston,102638.52
+380,Employee_380,33,Chicago,143594.72
+381,Employee_381,22,Phoenix,43435.72
+382,Employee_382,30,Los Angeles,137889.76
+383,Employee_383,57,Phoenix,104498.67
+384,Employee_384,32,New York,100403.93
+385,Employee_385,28,New York,66558.33
+386,Employee_386,52,Los Angeles,59230.46
+387,Employee_387,52,Chicago,130727.64
+388,Employee_388,36,Los Angeles,45582.29
+389,Employee_389,26,New York,109878.38
+390,Employee_390,26,Phoenix,59223.75
+391,Employee_391,37,Chicago,39129.28
+392,Employee_392,33,New York,56317.99
+393,Employee_393,30,New York,104477.21
+394,Employee_394,41,Phoenix,69725.22
+395,Employee_395,28,Phoenix,81294.66
+396,Employee_396,45,New York,134272.06
+397,Employee_397,26,Chicago,63123.77
+398,Employee_398,26,Phoenix,149602.61
+399,Employee_399,43,Chicago,116670.37
+400,Employee_400,45,New York,70979.5
+401,Employee_401,35,Houston,73616.35
+402,Employee_402,23,Phoenix,75397.61
+403,Employee_403,30,Los Angeles,67955.71
+404,Employee_404,55,Phoenix,37659.76
+405,Employee_405,26,Houston,81641.74
+406,Employee_406,27,New York,93339.1
+407,Employee_407,42,Chicago,47291.27
+408,Employee_408,49,Chicago,78989.31
+409,Employee_409,47,Los Angeles,131050.82
+410,Employee_410,38,Houston,68154.83
+411,Employee_411,23,Chicago,61444.68
+412,Employee_412,40,Los Angeles,96891.98
+413,Employee_413,28,Chicago,66189.96
+414,Employee_414,35,Phoenix,137758.77
+415,Employee_415,55,New York,138769.67
+416,Employee_416,55,Los Angeles,141950.15
+417,Employee_417,34,Los Angeles,54495.13
+418,Employee_418,34,Chicago,48649.53
+419,Employee_419,54,Chicago,66023.89
+420,Employee_420,30,Houston,73368.84
+421,Employee_421,40,Phoenix,66546.15
+422,Employee_422,53,Los Angeles,40299.26
+423,Employee_423,27,New York,40458.88
+424,Employee_424,38,Houston,86501.18
+425,Employee_425,49,Los Angeles,96697.42
+426,Employee_426,59,Phoenix,36559.5
+427,Employee_427,53,Los Angeles,81759.09
+428,Employee_428,30,New York,106897.56
+429,Employee_429,54,New York,77539.26
+430,Employee_430,23,Houston,42872.33
+431,Employee_431,45,New York,80626.81
+432,Employee_432,28,Houston,32593.24
+433,Employee_433,37,Phoenix,149584.72
+434,Employee_434,39,Chicago,149772.61
+435,Employee_435,29,Chicago,93090.35
+436,Employee_436,37,Chicago,34613.71
+437,Employee_437,40,Phoenix,68755.11
+438,Employee_438,29,Los Angeles,70990.4
+439,Employee_439,40,New York,133235.96
+440,Employee_440,32,Chicago,94260.28
+441,Employee_441,57,Houston,130998.82
+442,Employee_442,52,New York,47513.12
+443,Employee_443,40,New York,50221.09
+444,Employee_444,40,Houston,138020.59
+445,Employee_445,51,Chicago,63612.64
+446,Employee_446,37,New York,94245.55
+447,Employee_447,50,Phoenix,66338.98
+448,Employee_448,56,Chicago,40866.66
+449,Employee_449,48,Chicago,84493.77
+450,Employee_450,58,Chicago,143716.74
+451,Employee_451,49,Chicago,48372.94
+452,Employee_452,41,Los Angeles,43336.57
+453,Employee_453,51,Phoenix,102861.66
+454,Employee_454,38,New York,111693.49
+455,Employee_455,51,Phoenix,120939.84
+456,Employee_456,22,Houston,90398.85
+457,Employee_457,49,Houston,118492.28
+458,Employee_458,29,Los Angeles,127750.22
+459,Employee_459,32,Chicago,147270.84
+460,Employee_460,37,Houston,95249.96
+461,Employee_461,35,Los Angeles,89110.82
+462,Employee_462,48,New York,122595.41
+463,Employee_463,22,Houston,59822.0
+464,Employee_464,37,Los Angeles,56281.57
+465,Employee_465,38,New York,64921.8
+466,Employee_466,44,Chicago,147222.73
+467,Employee_467,26,Chicago,136603.6
+468,Employee_468,30,Houston,103647.39
+469,Employee_469,38,Houston,149917.06
+470,Employee_470,24,Chicago,102322.95
+471,Employee_471,50,Los Angeles,53774.32
+472,Employee_472,57,Phoenix,48699.64
+473,Employee_473,42,Phoenix,58470.46
+474,Employee_474,42,Los Angeles,55864.06
+475,Employee_475,37,Chicago,120603.15
+476,Employee_476,35,Los Angeles,53879.93
+477,Employee_477,21,Phoenix,131816.07
+478,Employee_478,58,New York,118075.12
+479,Employee_479,41,Chicago,41099.48
+480,Employee_480,34,New York,114587.4
+481,Employee_481,35,Houston,88792.2
+482,Employee_482,39,Phoenix,49180.07
+483,Employee_483,30,New York,33787.0
+484,Employee_484,22,Los Angeles,101450.0
+485,Employee_485,41,Houston,96791.36
+486,Employee_486,32,Los Angeles,81966.31
+487,Employee_487,58,Phoenix,76112.05
+488,Employee_488,55,Los Angeles,124056.59
+489,Employee_489,30,Chicago,75263.66
+490,Employee_490,49,New York,110350.18
+491,Employee_491,42,New York,96470.96
+492,Employee_492,54,New York,115693.17
+493,Employee_493,57,Los Angeles,85175.43
+494,Employee_494,54,Phoenix,143971.06
+495,Employee_495,44,New York,53090.05
+496,Employee_496,50,Chicago,49597.94
+497,Employee_497,48,Houston,81598.09
+498,Employee_498,30,Houston,68199.21
+499,Employee_499,50,Chicago,58973.18
+500,Employee_500,37,New York,100007.8
+501,Employee_501,48,Los Angeles,62967.59
+502,Employee_502,37,Phoenix,40071.17
+503,Employee_503,53,New York,33760.62
+504,Employee_504,46,Houston,48174.47
+505,Employee_505,26,Chicago,113777.93
+506,Employee_506,34,Los Angeles,34221.99
+507,Employee_507,26,Los Angeles,79727.86
+508,Employee_508,53,Houston,99046.77
+509,Employee_509,41,Phoenix,90333.59
+510,Employee_510,51,Chicago,32045.95
+511,Employee_511,37,Houston,78551.06
+512,Employee_512,24,Chicago,76589.63
+513,Employee_513,25,New York,41129.35
+514,Employee_514,48,New York,30839.95
+515,Employee_515,45,New York,53943.39
+516,Employee_516,20,Phoenix,131429.33
+517,Employee_517,21,Los Angeles,99656.1
+518,Employee_518,51,Los Angeles,32080.91
+519,Employee_519,22,Houston,73575.99
+520,Employee_520,21,Phoenix,102923.49
+521,Employee_521,40,Houston,87988.57
+522,Employee_522,26,Phoenix,51865.8
+523,Employee_523,40,Los Angeles,91120.22
+524,Employee_524,36,New York,66147.37
+525,Employee_525,50,New York,75792.06
+526,Employee_526,38,Phoenix,146748.83
+527,Employee_527,32,Los Angeles,75299.14
+528,Employee_528,48,New York,107911.24
+529,Employee_529,48,Los Angeles,41478.38
+530,Employee_530,21,New York,81576.04
+531,Employee_531,54,New York,141881.85
+532,Employee_532,58,New York,82163.45
+533,Employee_533,35,Chicago,34447.1
+534,Employee_534,54,Chicago,40952.51
+535,Employee_535,26,Phoenix,115649.67
+536,Employee_536,30,Phoenix,123879.14
+537,Employee_537,35,Los Angeles,34476.03
+538,Employee_538,22,New York,122093.41
+539,Employee_539,40,Houston,100266.63
+540,Employee_540,35,Los Angeles,104553.59
+541,Employee_541,35,Los Angeles,116065.0
+542,Employee_542,58,Chicago,124902.86
+543,Employee_543,20,Chicago,39327.3
+544,Employee_544,39,Phoenix,41874.97
+545,Employee_545,39,Los Angeles,129615.25
+546,Employee_546,47,Los Angeles,108205.01
+547,Employee_547,23,New York,117304.39
+548,Employee_548,43,Houston,76320.65
+549,Employee_549,54,Houston,45624.36
+550,Employee_550,57,New York,76232.56
+551,Employee_551,59,New York,126752.66
+552,Employee_552,37,Phoenix,145357.95
+553,Employee_553,38,New York,102770.34
+554,Employee_554,46,Houston,53454.19
+555,Employee_555,21,Phoenix,90395.46
+556,Employee_556,54,Los Angeles,55900.88
+557,Employee_557,42,Los Angeles,104533.91
+558,Employee_558,40,Houston,63486.67
+559,Employee_559,54,Chicago,75453.49
+560,Employee_560,39,Chicago,72792.33
+561,Employee_561,40,Los Angeles,91880.43
+562,Employee_562,30,Chicago,148495.75
+563,Employee_563,22,Chicago,79619.74
+564,Employee_564,60,Phoenix,53453.89
+565,Employee_565,51,Phoenix,134901.05
+566,Employee_566,24,Los Angeles,48116.43
+567,Employee_567,53,New York,63441.81
+568,Employee_568,23,Los Angeles,52349.99
+569,Employee_569,33,New York,124190.36
+570,Employee_570,36,Houston,43135.53
+571,Employee_571,22,New York,69862.1
+572,Employee_572,36,Los Angeles,52948.51
+573,Employee_573,60,New York,118117.27
+574,Employee_574,44,Chicago,94677.44
+575,Employee_575,32,Los Angeles,36595.63
+576,Employee_576,55,Houston,143131.56
+577,Employee_577,49,New York,53694.0
+578,Employee_578,45,Los Angeles,96701.09
+579,Employee_579,20,Houston,97880.13
+580,Employee_580,20,Houston,92208.12
+581,Employee_581,43,Los Angeles,106759.65
+582,Employee_582,23,Chicago,132014.54
+583,Employee_583,24,Chicago,63565.8
+584,Employee_584,21,Houston,68453.66
+585,Employee_585,32,Houston,149944.4
+586,Employee_586,40,Los Angeles,98513.24
+587,Employee_587,59,New York,65660.14
+588,Employee_588,54,Houston,133503.71
+589,Employee_589,25,Houston,139332.35
+590,Employee_590,23,Houston,102964.88
+591,Employee_591,44,New York,98102.72
+592,Employee_592,44,Phoenix,53853.28
+593,Employee_593,52,New York,127322.67
+594,Employee_594,60,New York,144443.39
+595,Employee_595,23,Los Angeles,39012.78
+596,Employee_596,57,New York,61274.07
+597,Employee_597,56,New York,100023.45
+598,Employee_598,59,New York,91884.36
+599,Employee_599,43,Chicago,95357.45
+600,Employee_600,60,Phoenix,60470.1
+601,Employee_601,38,Chicago,72341.73
+602,Employee_602,34,Houston,148286.32
+603,Employee_603,50,Chicago,114597.23
+604,Employee_604,45,Houston,142222.59
+605,Employee_605,26,Houston,103497.5
+606,Employee_606,41,Phoenix,77434.12
+607,Employee_607,52,New York,61706.13
+608,Employee_608,40,Phoenix,75200.08
+609,Employee_609,41,Phoenix,120005.89
+610,Employee_610,23,Chicago,34751.88
+611,Employee_611,57,Los Angeles,91408.59
+612,Employee_612,49,Phoenix,43889.43
+613,Employee_613,59,Houston,111631.43
+614,Employee_614,35,Phoenix,42561.25
+615,Employee_615,56,Houston,37607.13
+616,Employee_616,32,Chicago,35658.95
+617,Employee_617,24,Chicago,112965.52
+618,Employee_618,29,Chicago,59669.26
+619,Employee_619,51,Chicago,65906.26
+620,Employee_620,54,Chicago,134558.78
+621,Employee_621,29,Chicago,62246.48
+622,Employee_622,48,Los Angeles,81427.29
+623,Employee_623,32,Houston,54704.95
+624,Employee_624,31,New York,89881.74
+625,Employee_625,54,Houston,80821.92
+626,Employee_626,41,Phoenix,135708.35
+627,Employee_627,35,Houston,96276.54
+628,Employee_628,23,Los Angeles,80397.91
+629,Employee_629,35,New York,84350.25
+630,Employee_630,27,New York,99488.1
+631,Employee_631,37,New York,143422.17
+632,Employee_632,46,New York,49113.61
+633,Employee_633,37,Chicago,102783.17
+634,Employee_634,22,New York,140136.34
+635,Employee_635,50,Phoenix,41201.69
+636,Employee_636,57,Houston,83110.15
+637,Employee_637,56,Los Angeles,55255.01
+638,Employee_638,47,Chicago,74704.17
+639,Employee_639,25,Los Angeles,121892.04
+640,Employee_640,32,Houston,77140.4
+641,Employee_641,34,Los Angeles,30724.12
+642,Employee_642,31,Houston,130628.36
+643,Employee_643,29,Chicago,115443.05
+644,Employee_644,53,Los Angeles,120437.04
+645,Employee_645,32,Phoenix,42034.96
+646,Employee_646,36,Houston,124196.24
+647,Employee_647,35,Houston,30137.23
+648,Employee_648,42,Phoenix,31206.36
+649,Employee_649,36,Phoenix,83974.64
+650,Employee_650,56,New York,30662.97
+651,Employee_651,32,Houston,74741.88
+652,Employee_652,44,New York,65161.76
+653,Employee_653,52,Phoenix,149302.82
+654,Employee_654,41,Los Angeles,90142.7
+655,Employee_655,49,New York,104019.28
+656,Employee_656,43,Chicago,86546.97
+657,Employee_657,46,Houston,98573.49
+658,Employee_658,26,New York,134156.15
+659,Employee_659,42,Chicago,127950.61
+660,Employee_660,53,New York,83128.57
+661,Employee_661,26,New York,30575.3
+662,Employee_662,32,Los Angeles,80042.67
+663,Employee_663,26,Phoenix,59548.33
+664,Employee_664,37,New York,75233.52
+665,Employee_665,38,New York,116107.36
+666,Employee_666,28,Chicago,42294.86
+667,Employee_667,55,Los Angeles,60963.65
+668,Employee_668,39,Chicago,98820.47
+669,Employee_669,24,Phoenix,145501.29
+670,Employee_670,40,New York,79039.33
+671,Employee_671,23,Phoenix,132869.58
+672,Employee_672,48,Houston,108408.22
+673,Employee_673,59,Houston,129335.73
+674,Employee_674,21,Los Angeles,72745.47
+675,Employee_675,34,New York,149318.3
+676,Employee_676,25,Los Angeles,132885.46
+677,Employee_677,51,Los Angeles,124887.88
+678,Employee_678,60,Phoenix,115712.9
+679,Employee_679,59,New York,71110.35
+680,Employee_680,53,Chicago,109769.84
+681,Employee_681,53,Phoenix,130332.55
+682,Employee_682,21,New York,37281.35
+683,Employee_683,40,Phoenix,72917.4
+684,Employee_684,25,Phoenix,74215.16
+685,Employee_685,42,Los Angeles,79043.9
+686,Employee_686,22,Chicago,125835.98
+687,Employee_687,38,New York,41305.04
+688,Employee_688,35,New York,137074.98
+689,Employee_689,50,Phoenix,87002.59
+690,Employee_690,53,Chicago,97931.29
+691,Employee_691,29,Chicago,105289.04
+692,Employee_692,44,New York,112507.32
+693,Employee_693,57,Los Angeles,44075.21
+694,Employee_694,45,Houston,77846.67
+695,Employee_695,50,Houston,59963.52
+696,Employee_696,33,Chicago,49247.03
+697,Employee_697,34,Chicago,104587.37
+698,Employee_698,53,Los Angeles,64234.74
+699,Employee_699,31,New York,34016.5
+700,Employee_700,44,Phoenix,131772.95
+701,Employee_701,44,Phoenix,85063.36
+702,Employee_702,34,Chicago,72364.19
+703,Employee_703,23,Phoenix,115390.44
+704,Employee_704,37,Chicago,63345.86
+705,Employee_705,27,Chicago,61477.02
+706,Employee_706,28,Chicago,79559.69
+707,Employee_707,51,New York,100467.12
+708,Employee_708,31,Phoenix,44869.73
+709,Employee_709,23,Chicago,132474.35
+710,Employee_710,26,Chicago,87850.35
+711,Employee_711,24,Los Angeles,91875.7
+712,Employee_712,22,Houston,102299.78
+713,Employee_713,38,New York,97268.33
+714,Employee_714,34,Phoenix,123065.71
+715,Employee_715,37,New York,130478.28
+716,Employee_716,50,Houston,94226.83
+717,Employee_717,57,Los Angeles,54365.13
+718,Employee_718,29,New York,43417.83
+719,Employee_719,28,Phoenix,137021.44
+720,Employee_720,38,Los Angeles,145000.09
+721,Employee_721,22,Chicago,89485.75
+722,Employee_722,33,Chicago,80304.26
+723,Employee_723,23,Houston,111331.75
+724,Employee_724,34,Houston,50687.72
+725,Employee_725,36,Houston,68408.68
+726,Employee_726,38,Chicago,142364.93
+727,Employee_727,27,Chicago,54090.97
+728,Employee_728,28,New York,111020.88
+729,Employee_729,42,New York,144418.85
+730,Employee_730,29,Chicago,144351.59
+731,Employee_731,53,Houston,127537.05
+732,Employee_732,39,Houston,119008.31
+733,Employee_733,33,Chicago,69970.54
+734,Employee_734,51,New York,91802.3
+735,Employee_735,46,Houston,65851.31
+736,Employee_736,57,Phoenix,40970.94
+737,Employee_737,43,New York,125541.29
+738,Employee_738,47,Houston,51586.45
+739,Employee_739,25,Phoenix,111709.99
+740,Employee_740,29,New York,84930.59
+741,Employee_741,36,Houston,92328.44
+742,Employee_742,25,Chicago,89219.31
+743,Employee_743,29,New York,142442.22
+744,Employee_744,45,Los Angeles,130583.8
+745,Employee_745,27,Houston,32349.02
+746,Employee_746,44,Phoenix,40742.5
+747,Employee_747,38,New York,44501.54
+748,Employee_748,53,Phoenix,139692.68
+749,Employee_749,29,Chicago,103827.81
+750,Employee_750,49,New York,44637.22
+751,Employee_751,21,Houston,146492.72
+752,Employee_752,28,Los Angeles,55113.42
+753,Employee_753,45,Los Angeles,132292.82
+754,Employee_754,34,Los Angeles,98614.11
+755,Employee_755,35,Houston,149750.79
+756,Employee_756,22,Houston,99755.05
+757,Employee_757,24,New York,83694.77
+758,Employee_758,24,Phoenix,88453.12
+759,Employee_759,54,New York,112331.84
+760,Employee_760,24,Los Angeles,50723.31
+761,Employee_761,37,Los Angeles,68841.01
+762,Employee_762,30,Los Angeles,70372.36
+763,Employee_763,41,Los Angeles,45106.61
+764,Employee_764,58,Los Angeles,145342.45
+765,Employee_765,36,New York,82213.59
+766,Employee_766,40,New York,112837.78
+767,Employee_767,30,Los Angeles,41129.19
+768,Employee_768,25,Houston,79612.19
+769,Employee_769,27,New York,139908.33
+770,Employee_770,45,Los Angeles,144151.03
+771,Employee_771,27,Phoenix,76412.22
+772,Employee_772,21,New York,128854.11
+773,Employee_773,22,Los Angeles,31524.38
+774,Employee_774,45,Los Angeles,91176.42
+775,Employee_775,59,New York,59090.1
+776,Employee_776,29,New York,121320.2
+777,Employee_777,21,New York,82239.93
+778,Employee_778,40,Los Angeles,115682.46
+779,Employee_779,35,Chicago,109754.92
+780,Employee_780,43,Los Angeles,102898.88
+781,Employee_781,43,Houston,30836.53
+782,Employee_782,21,Los Angeles,74987.8
+783,Employee_783,43,Houston,108665.06
+784,Employee_784,49,Houston,34856.92
+785,Employee_785,38,Chicago,77232.82
+786,Employee_786,59,New York,100071.86
+787,Employee_787,21,Houston,50104.9
+788,Employee_788,32,New York,97739.27
+789,Employee_789,21,Houston,83597.97
+790,Employee_790,22,Chicago,35188.34
+791,Employee_791,40,Los Angeles,83219.55
+792,Employee_792,36,Los Angeles,39816.78
+793,Employee_793,23,New York,126796.93
+794,Employee_794,32,New York,122367.67
+795,Employee_795,48,Los Angeles,121428.4
+796,Employee_796,36,Los Angeles,45323.14
+797,Employee_797,53,Houston,85055.8
+798,Employee_798,30,Los Angeles,99522.94
+799,Employee_799,32,Los Angeles,132130.74
+800,Employee_800,24,Houston,87337.04
+801,Employee_801,41,Chicago,81107.96
+802,Employee_802,23,Phoenix,56035.81
+803,Employee_803,22,Chicago,54817.95
+804,Employee_804,57,Los Angeles,147936.37
+805,Employee_805,53,Houston,83109.67
+806,Employee_806,40,Los Angeles,58082.34
+807,Employee_807,34,Phoenix,93435.56
+808,Employee_808,39,New York,33469.9
+809,Employee_809,27,Los Angeles,69635.8
+810,Employee_810,52,Los Angeles,58592.34
+811,Employee_811,31,Houston,35814.22
+812,Employee_812,56,Houston,46554.06
+813,Employee_813,47,New York,140577.88
+814,Employee_814,56,Houston,74603.44
+815,Employee_815,35,Houston,113251.42
+816,Employee_816,44,Chicago,114225.39
+817,Employee_817,21,Chicago,46175.35
+818,Employee_818,55,Phoenix,120998.28
+819,Employee_819,50,New York,116638.36
+820,Employee_820,47,New York,91894.73
+821,Employee_821,30,Houston,40328.18
+822,Employee_822,36,Phoenix,88135.34
+823,Employee_823,31,New York,46404.23
+824,Employee_824,32,Houston,142848.87
+825,Employee_825,21,Houston,71886.68
+826,Employee_826,36,Los Angeles,48006.93
+827,Employee_827,27,Los Angeles,100285.56
+828,Employee_828,46,Phoenix,62123.98
+829,Employee_829,20,New York,66013.02
+830,Employee_830,50,Phoenix,85933.02
+831,Employee_831,56,Houston,80595.8
+832,Employee_832,20,Chicago,61605.16
+833,Employee_833,35,Houston,44061.29
+834,Employee_834,20,Phoenix,37675.69
+835,Employee_835,55,Los Angeles,46396.36
+836,Employee_836,45,Los Angeles,31554.34
+837,Employee_837,33,Houston,85311.4
+838,Employee_838,46,Chicago,38541.34
+839,Employee_839,47,Houston,52917.15
+840,Employee_840,49,Los Angeles,49977.02
+841,Employee_841,40,Houston,125108.02
+842,Employee_842,57,Los Angeles,53940.87
+843,Employee_843,31,Chicago,145313.41
+844,Employee_844,41,Los Angeles,30036.44
+845,Employee_845,45,Los Angeles,108876.79
+846,Employee_846,47,New York,102011.56
+847,Employee_847,28,Chicago,99181.93
+848,Employee_848,35,New York,136336.03
+849,Employee_849,59,New York,56490.22
+850,Employee_850,38,New York,33029.4
+851,Employee_851,54,Chicago,73696.3
+852,Employee_852,48,Los Angeles,127299.52
+853,Employee_853,23,Houston,97690.43
+854,Employee_854,22,New York,75904.67
+855,Employee_855,36,Chicago,95859.67
+856,Employee_856,50,New York,62994.79
+857,Employee_857,43,Houston,144277.82
+858,Employee_858,23,New York,124586.04
+859,Employee_859,48,Chicago,84164.45
+860,Employee_860,28,New York,73566.67
+861,Employee_861,49,Phoenix,120532.13
+862,Employee_862,43,Phoenix,89376.1
+863,Employee_863,49,Los Angeles,73298.59
+864,Employee_864,46,Phoenix,69696.4
+865,Employee_865,23,New York,67623.69
+866,Employee_866,26,Phoenix,139123.88
+867,Employee_867,30,Los Angeles,88134.63
+868,Employee_868,54,Los Angeles,114251.48
+869,Employee_869,37,Houston,48008.98
+870,Employee_870,46,Los Angeles,73047.49
+871,Employee_871,22,Chicago,126762.5
+872,Employee_872,27,Los Angeles,122370.09
+873,Employee_873,43,New York,82283.95
+874,Employee_874,31,Los Angeles,46794.82
+875,Employee_875,50,Los Angeles,133328.56
+876,Employee_876,52,Houston,107242.88
+877,Employee_877,47,Los Angeles,88726.35
+878,Employee_878,50,New York,118055.26
+879,Employee_879,20,Houston,129304.36
+880,Employee_880,26,Chicago,39158.02
+881,Employee_881,57,Chicago,116582.29
+882,Employee_882,30,Houston,54522.25
+883,Employee_883,57,Houston,38242.89
+884,Employee_884,39,Los Angeles,145032.28
+885,Employee_885,21,New York,126512.55
+886,Employee_886,42,New York,60196.51
+887,Employee_887,33,New York,52589.49
+888,Employee_888,40,Houston,45284.77
+889,Employee_889,43,Houston,37601.92
+890,Employee_890,37,New York,49400.84
+891,Employee_891,55,Houston,86757.13
+892,Employee_892,52,Houston,103507.55
+893,Employee_893,36,Phoenix,37250.86
+894,Employee_894,22,Los Angeles,106891.88
+895,Employee_895,54,Houston,42416.87
+896,Employee_896,32,Chicago,146586.5
+897,Employee_897,56,Chicago,97587.01
+898,Employee_898,25,Houston,137913.33
+899,Employee_899,39,Chicago,136203.48
+900,Employee_900,22,Houston,57155.3
+901,Employee_901,24,Houston,73551.78
+902,Employee_902,37,Chicago,85936.31
+903,Employee_903,56,New York,119184.47
+904,Employee_904,39,Houston,92566.52
+905,Employee_905,37,Chicago,98581.14
+906,Employee_906,27,Chicago,76678.12
+907,Employee_907,45,Chicago,123152.58
+908,Employee_908,22,Los Angeles,126571.96
+909,Employee_909,52,Phoenix,53834.75
+910,Employee_910,29,New York,74353.02
+911,Employee_911,57,Phoenix,94612.79
+912,Employee_912,31,Houston,126556.31
+913,Employee_913,36,Houston,77312.15
+914,Employee_914,41,Chicago,56873.45
+915,Employee_915,48,Houston,39304.68
+916,Employee_916,60,Los Angeles,106755.22
+917,Employee_917,59,Phoenix,143751.7
+918,Employee_918,28,Los Angeles,59654.09
+919,Employee_919,25,New York,75063.94
+920,Employee_920,58,Phoenix,136011.06
+921,Employee_921,32,Phoenix,100698.25
+922,Employee_922,39,Houston,93148.87
+923,Employee_923,38,Houston,103267.24
+924,Employee_924,50,Los Angeles,115743.27
+925,Employee_925,46,Phoenix,83152.37
+926,Employee_926,52,New York,90157.14
+927,Employee_927,23,New York,71919.09
+928,Employee_928,21,Phoenix,122333.34
+929,Employee_929,39,Los Angeles,145995.32
+930,Employee_930,52,Los Angeles,99338.48
+931,Employee_931,33,New York,45096.6
+932,Employee_932,24,Houston,125436.47
+933,Employee_933,45,Chicago,95516.8
+934,Employee_934,53,New York,116892.6
+935,Employee_935,57,Houston,138570.9
+936,Employee_936,41,Phoenix,138013.84
+937,Employee_937,50,New York,134273.05
+938,Employee_938,27,Los Angeles,99354.61
+939,Employee_939,41,Los Angeles,107145.28
+940,Employee_940,45,New York,131770.31
+941,Employee_941,21,Houston,70820.07
+942,Employee_942,46,Chicago,127415.53
+943,Employee_943,48,Chicago,39154.6
+944,Employee_944,22,Houston,127404.63
+945,Employee_945,20,Los Angeles,146482.56
+946,Employee_946,24,Chicago,137117.96
+947,Employee_947,56,Houston,116916.78
+948,Employee_948,38,Los Angeles,107477.14
+949,Employee_949,37,New York,70487.87
+950,Employee_950,43,Chicago,36680.45
+951,Employee_951,60,Houston,72714.73
+952,Employee_952,39,Chicago,115672.92
+953,Employee_953,58,New York,68087.33
+954,Employee_954,37,Los Angeles,89120.92
+955,Employee_955,33,Phoenix,128242.6
+956,Employee_956,43,Los Angeles,93385.92
+957,Employee_957,55,New York,89895.86
+958,Employee_958,32,Chicago,62042.71
+959,Employee_959,55,Phoenix,75344.52
+960,Employee_960,36,Phoenix,85741.31
+961,Employee_961,47,Chicago,131932.97
+962,Employee_962,20,Chicago,87705.13
+963,Employee_963,59,Houston,31039.28
+964,Employee_964,23,Houston,149264.44
+965,Employee_965,21,New York,37657.7
+966,Employee_966,44,Houston,57715.07
+967,Employee_967,35,Phoenix,58672.29
+968,Employee_968,45,Houston,82268.82
+969,Employee_969,30,New York,53496.1
+970,Employee_970,30,Los Angeles,137439.13
+971,Employee_971,25,Chicago,55898.55
+972,Employee_972,52,Chicago,47575.12
+973,Employee_973,31,Los Angeles,44956.02
+974,Employee_974,42,Chicago,42732.62
+975,Employee_975,32,New York,77060.77
+976,Employee_976,41,Los Angeles,101672.52
+977,Employee_977,44,Los Angeles,36333.95
+978,Employee_978,23,Chicago,85470.24
+979,Employee_979,50,Los Angeles,38984.23
+980,Employee_980,50,Phoenix,33440.28
+981,Employee_981,46,New York,138846.62
+982,Employee_982,41,Chicago,52579.24
+983,Employee_983,23,Phoenix,60162.04
+984,Employee_984,56,New York,40646.26
+985,Employee_985,52,Chicago,56652.09
+986,Employee_986,26,Los Angeles,72783.56
+987,Employee_987,21,Los Angeles,136066.13
+988,Employee_988,57,Houston,40190.63
+989,Employee_989,59,Chicago,149608.13
+990,Employee_990,42,Phoenix,149152.04
+991,Employee_991,39,Houston,139010.59
+992,Employee_992,24,New York,97147.46
+993,Employee_993,39,Los Angeles,84594.41
+994,Employee_994,49,New York,78832.83
+995,Employee_995,53,Los Angeles,130726.15
+996,Employee_996,56,Phoenix,35211.57
+997,Employee_997,38,Chicago,113593.62
+998,Employee_998,54,Chicago,96976.96
+999,Employee_999,25,Houston,41936.43
+1000,Employee_1000,58,Phoenix,54552.83
