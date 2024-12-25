@@ -11,8 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.apache.spark.sql.functions.max;
-import static org.apache.spark.sql.functions.min;
+import static org.apache.spark.sql.functions.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,17 +19,29 @@ public class Main {
              final JavaSparkContext sparkContext = new JavaSparkContext(sparkSession.sparkContext())) {
 
             String inputCsvFilePath = "src/main/resources/employees.csv";
-            String outputCsvFilePath = "src/main/resources/result.csv";
+            //String outputCsvFilePath = "src/main/resources/result.csv";
 
             Dataset<Row> df = sparkSession.read().format("csv")
                     .option("header", "true")
                     .option("inferSchema", "true")
                     .load(inputCsvFilePath);
 
-            Dataset<Row> rowDataset = maxAndMin(df);
-            saveData(rowDataset, outputCsvFilePath);
+
             sparkContext.stop();
         }
+    }
+
+    private static Dataset<Row> averageSalary(Dataset<Row> df) {
+        return df.select(format_number(avg("salary"), 2).as("Average salary"));
+    }
+
+    private static Dataset<Row> countDistinctCities(Dataset<Row> df) {
+        return df.select(count_distinct(df.col("city")).as("Distinct city count"));
+    }
+
+    private static Dataset<Row> youngPeopleWithHighSalary(Dataset<Row> df) {
+        return df.where("salary > 100000")
+                .where("age < 30");
     }
 
     private static void saveData(Dataset<Row> rowDataset, String outputCsvFilePath) {
@@ -41,18 +52,11 @@ public class Main {
                 .save(outputCsvFilePath);
     }
 
-    private static Dataset<Row> maxAndMin(Dataset<Row> df) {
+    private static Dataset<Row> maxAndMinSalary(Dataset<Row> df) {
         return df.agg(max("salary"), min("salary"));
     }
 
-    private static void parallelizeCollection(JavaSparkContext sparkContext) {
-        List<Integer> list = Stream.iterate(0, i -> i + 1).limit(10).collect(Collectors.toUnmodifiableList());
-
-        JavaRDD<Integer> parallelize = sparkContext.parallelize(list).filter(e -> e % 2 == 0);
-        System.out.println("Count of elements: " + parallelize.count());
-    }
-
-    private static Dataset<Row> datasetGroupBy(Dataset<Row> df) {
+    private static Dataset<Row> maxSalaryByCity(Dataset<Row> df) {
 
         return df.groupBy("city").max("salary");
     }
@@ -75,5 +79,12 @@ public class Main {
             System.out.println("City: " + tuple2._1);
             tuple2._2().forEach(System.out::println);
         });
+    }
+
+    private static void parallelizeCollection(JavaSparkContext sparkContext) {
+        List<Integer> list = Stream.iterate(0, i -> i + 1).limit(10).collect(Collectors.toUnmodifiableList());
+
+        JavaRDD<Integer> parallelize = sparkContext.parallelize(list).filter(e -> e % 2 == 0);
+        System.out.println("Count of elements: " + parallelize.count());
     }
 }
