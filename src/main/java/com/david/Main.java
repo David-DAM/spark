@@ -31,6 +31,14 @@ public class Main {
         }
     }
 
+    private static Dataset<Row> countEveryLetter(Dataset<Row> df) {
+        return df.select(explode(split(df.col("city"), "")).alias("letter"))
+                .groupBy("letter")
+                .count()
+                .where("letter != ''")
+                .orderBy(desc("count"));
+    }
+
     private static Dataset<Row> averageSalary(Dataset<Row> df) {
         return df.select(format_number(avg("salary"), 2).as("Average salary"));
     }
