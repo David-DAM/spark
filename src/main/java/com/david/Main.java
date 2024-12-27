@@ -3,6 +3,9 @@ package com.david;
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.ml.feature.VectorAssembler;
+import org.apache.spark.ml.regression.LinearRegression;
+import org.apache.spark.ml.regression.LinearRegressionModel;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
@@ -26,13 +29,42 @@ public class Main {
                     .option("inferSchema", "true")
                     .load(inputCsvFilePath);
 
-
             sparkContext.stop();
         }
     }
 
+    private static void predictSalaryByAge(Dataset<Row> df) {
+
+        Dataset<Row> selectedData = df.select("age", "salary");
+
+        VectorAssembler assembler = new VectorAssembler()
+                .setInputCols(new String[]{"age"})
+                .setOutputCol("features");
+
+        Dataset<Row> preparedData = assembler.transform(selectedData)
+                .select("features", "salary");
+
+        Dataset<Row>[] splits = preparedData.randomSplit(new double[]{0.8, 0.2}, 1234);
+        Dataset<Row> trainingData = splits[0];
+        Dataset<Row> testData = splits[1];
+
+        LinearRegression lr = new LinearRegression()
+                .setLabelCol("salary")
+                .setFeaturesCol("features");
+
+        LinearRegressionModel model = lr.fit(trainingData);
+
+        Dataset<Row> predictions = model.transform(testData);
+        predictions.show();
+
+        System.out.println("Coefficients: " + model.coefficients());
+        System.out.println("Intercept: " + model.intercept());
+        System.out.println("RMSE: " + model.summary().rootMeanSquaredError());
+        System.out.println("R2: " + model.summary().r2());
+    }
+
     private static Dataset<Row> countEveryLetter(Dataset<Row> df) {
-        return df.select(explode(split(df.col("city"), "")).alias("letter"))
+        return df.select(explode(split(df.col("city"), "")).as("letter"))
                 .groupBy("letter")
                 .count()
                 .where("letter != ''")

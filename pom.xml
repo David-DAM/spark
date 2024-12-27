@@ -29,6 +29,10 @@
             <artifactId>spark-sql_2.13</artifactId>
             <version>${apache-spark.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.13</artifactId>
+            <version>${apache-spark.version}</version>
+        </dependency>
     </dependencies>
 </project>
