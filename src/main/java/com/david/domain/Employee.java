@@ -1,4 +1,4 @@
-package com.david;
+package com.david.domain;
 
 public class Employee {
 
